@@ -1,0 +1,21 @@
+body{
+    letter-spacing: 2px;
+    padding: 20px;
+    font-size: 22px;
+    background-color: black;
+    color: white;
+    text-shadow: 0 0 10px #00FFFF;
+}
+
+span{
+    animation: blinker 1s linear infinite;
+}
+
+#typedtext span {
+    animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+}
